@@ -1,0 +1,15 @@
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\bin\Debug\Calc(ComandPatteren).exe.config
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\bin\Debug\Calc(ComandPatteren).exe
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\bin\Debug\Calc(ComandPatteren).pdb
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\obj\Debug\Calc(ComandPatteren).csprojAssemblyReference.cache
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\obj\Debug\MainWindow.g.cs
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\obj\Debug\App.g.cs
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\obj\Debug\Calc(ComandPatteren)_MarkupCompile.cache
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\obj\Debug\Calc(ComandPatteren)_MarkupCompile.lref
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\obj\Debug\MainWindow.baml
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\obj\Debug\Calc(ComandPatteren).g.resources
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\obj\Debug\Calc_ComandPatteren_.Properties.Resources.resources
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\obj\Debug\Calc(ComandPatteren).csproj.GenerateResource.cache
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\obj\Debug\Calc(ComandPatteren).csproj.CoreCompileInputs.cache
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\obj\Debug\Calc(ComandPatteren).exe
+D:\Учеба\58\Calc(ComandPatteren)\Calc(ComandPatteren)\obj\Debug\Calc(ComandPatteren).pdb

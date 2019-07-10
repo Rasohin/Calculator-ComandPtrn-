@@ -1,0 +1,55 @@
+﻿<Window x:Class="Calc_ComandPatteren_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calc_ComandPatteren_"
+        mc:Ignorable="d"
+        Title="Calculator" Height="300" Width="500" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.40*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.60*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.Row="0" Grid.ColumnSpan="2" x:Name="calcScreen" Width="480" Height="60" FontSize="40" MaxLines="1" FlowDirection="LeftToRight"></TextBox>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Left" Width="85" Margin="5">
+            <Button x:Name="plus" Height="35" Content="+" FontSize="18" FontWeight="Bold" Margin="5" Click="OperationBtn_Click"/>
+            <Button x:Name="mult" Height="35" Content="*" FontSize="18" FontWeight="Bold" Margin="5" Click="OperationBtn_Click"/>
+            <Button x:Name="sin" Height="35" Content="sin" FontSize="18" FontWeight="Bold" Margin="5" Click="OperationBtn_Click"/>
+            <Button Height="35" Content="UnDo" FontSize="18" FontWeight="Bold" Margin="5" Click="Button_Click"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Right" Width="85" Margin="5">
+            <Button x:Name="minus" Height="35" Content="-" FontSize="18" FontWeight="Bold" Margin="5" Click="OperationBtn_Click"/>
+            <Button x:Name="del" Height="35" Content="/" FontSize="18" FontWeight="Bold" Margin="5" Click="OperationBtn_Click"/>
+            <Button x:Name="cos" Height="35" Content="cos" FontSize="18" FontWeight="Bold" Margin="5" Click="OperationBtn_Click"/>
+            <Button Height="35" Content="," FontSize="18" FontWeight="Bold" Margin="5" Click="NumButton_Click"/>
+        </StackPanel>
+        <DockPanel Grid.Row="1" Grid.Column="1" LastChildFill="False">
+            <StackPanel DockPanel.Dock="Left" Width="70" Margin="5,5,0,5">
+                <Button Height="50" Content="1" FontSize="18" FontWeight="Bold" Margin="5" Click="NumButton_Click"/>
+                <Button Height="50" Content="4" FontSize="18" FontWeight="Bold" Margin="5" Click="NumButton_Click"/>
+                <Button Height="50" Content="7" FontSize="18" FontWeight="Bold" Margin="5" Click="NumButton_Click"/>
+            </StackPanel>
+            <StackPanel DockPanel.Dock="Left" Width="70" Margin="0,5,0,5">
+                <Button Height="50" Content="2" FontSize="18" FontWeight="Bold" Margin="5" Click="NumButton_Click"/>
+                <Button Height="50" Content="5" FontSize="18" FontWeight="Bold" Margin="5" Click="NumButton_Click"/>
+                <Button Height="50" Content="8" FontSize="18" FontWeight="Bold" Margin="5" Click="NumButton_Click"/>
+            </StackPanel>
+            <StackPanel DockPanel.Dock="Left" Width="70" Margin="0,5,0,5">
+                <Button Height="50" Content="3" FontSize="18" FontWeight="Bold" Margin="5" Click="NumButton_Click"/>
+                <Button Height="50" Content="6" FontSize="18" FontWeight="Bold" Margin="5" Click="NumButton_Click"/>
+                <Button Height="50" Content="9" FontSize="18" FontWeight="Bold" Margin="5" Click="NumButton_Click"/>
+            </StackPanel>
+            <StackPanel DockPanel.Dock="Left" Width="70" Margin="0,5,5,5">
+                <Button x:Name="back" Height="50" Content="C" FontSize="18" FontWeight="Bold" Margin="5" Click="Back_Click"/>
+                <Button Height="50" Content="0" FontSize="18" FontWeight="Bold" Margin="5" Click="NumButton_Click"/>
+                <Button x:Name="equality" Height="50" Content="=" FontSize="18" FontWeight="Bold" Margin="5" Click="Equality_Click"/>
+            </StackPanel>
+        </DockPanel>
+        
+    </Grid>
+</Window>
